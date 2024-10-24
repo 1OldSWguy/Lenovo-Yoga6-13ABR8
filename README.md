@@ -5,7 +5,7 @@
 
 |          | Version              |
 |----------|----------------------|
-| OpenCore | 1.0.1                |
+| OpenCore | 1.0.2                |
 | macOS    | Sonoma 14.7 (23H124) |
 
 I built my first hack back in 2009 on an Asus eeePC 1000HE netbook with OS X Snow Leopard. Since then I have hack'd a half dozen Intel based laptops and desktops. Lately I've been intrigued by the progress for AMD based systems, especially now that ChefKiss has released a driver for AMD Vega iGPU's.<br>So one day I clicked on a Best Buy email link for open box/refurbished laptop deals. The specs on this Lenovo (2023 model) fit all of my Ryzentosh criteria, except for the 8 GB of RAM. I don't know why it was returned (I read several reviews about the poor WiFi performance of the Mediatek card), but it was in perfect shape aside of a few minor dings in the top of the lid. So for $255 USD, I took the chance. I was surprised at how smoothly the setup and install went. Then I hit a horrible snag, **THE TOUCHPAD DID NOT WORK!**
