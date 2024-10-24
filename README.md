@@ -44,7 +44,7 @@ I built my first hack back in 2009 on an Asus eeePC 1000HE netbook with OS X Sno
 - I use SSDT-SBUS-MCHC for completeness even though it does not appear to be neccessary.
 
 ## <a name="biosset"></a>BIOS Settings
-###Enable Advanced BIOS settings menu [per this link Answer](https://superuser.com/questions/1775335/how-to-access-advanced-setup-bios-uefi-on-lenovo-ideapad-5-pro)
+### Enable Advanced BIOS settings menu [per this link Answer](https://superuser.com/questions/1775335/how-to-access-advanced-setup-bios-uefi-on-lenovo-ideapad-5-pro)
 - Start machine. Press &laquo;F2&raquo; during post (before screen turns on dim) to enter normal BIOS
 - In normal BIOS go to Configuration and change<br>
 &nbsp;&nbsp;&nbsp;&nbsp;HotKey Mode --> Disabled<br>
@@ -57,13 +57,13 @@ Now you can use the following "easter egg" key sequence at power on to gain acce
 &nbsp;&nbsp;&nbsp;&nbsp;- Quickly press &laquo;F2&raquo; during post<br>
 Go play TWISTER!!!
 
-###Required BIOS Changes
+### Required BIOS Changes
 - Security | Secure Boot --> Disabled
 - AMD PBS | S3/Modern Standby Support --> S3 Enable [ref](https://saveriomiroddi.github.io/Enabling-the-S3-sleep-suspend-on-the-Lenovo-Yoga-7-AMD-Gen-7-and-possibly-others/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*I chose to enable S3 in BIOS rather than use SSDT patching as I run Linux too.*
 - Exit - Exit Saving Changes
 
-###Optional BIOS Changes
+### Optional BIOS Changes
 - Configuration | BIOS Back Flash --> Enabled
 - Configuration | Flip To Start --> Disabled
 
@@ -125,7 +125,7 @@ Go play TWISTER!!!
 - Sleep
 - Wake (power button and keyboard)
 
-### Not Working
+## Not Working
 - DRM
 - FingerPrint Reader
 - Wake from sleep with lid open, touchpad, touchscreen or mouse inputs<br>
@@ -133,7 +133,7 @@ Go play TWISTER!!!
 &nbsp;&nbsp;&nbsp;&nbsp;- Possibly investigate [OC-Little AOAC](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sleep_and_Wake_Issues/Fixing_AOAC_Machines) patches<br>
 &nbsp;&nbsp;&nbsp;&nbsp;- I don't remember Windows behavior (OS no longer installed)
 
-### Not Tested
+## Not Tested
 - Headphone / Microphone combo jack
 - HDMI
 - USB-C Display port
