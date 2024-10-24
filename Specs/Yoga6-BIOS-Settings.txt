@@ -1,0 +1,26 @@
+These changes allow the BIOS Advanced menu to be accessed. 
+Configuration
+  - HotKey Mode     --> Disabled
+  - One Key Battery --> Disabled
+
+Press Fn + R + N, then press Power button to start machine.
+Press F2 to enter BIOS with Advanced settings exposed.
+
+Enter the "Novo Button Menu" by pressing the <<Star-S|Insert>> key directly
+
+Mandatory changes
+Security
+Secure Boot --> Disabled
+AMD PBS
+S3/Modern Standby Support --> S3 Enable (thanks to https://saveriomiroddi.github.io/Enabling-the-S3-sleep-suspend-on-the-Lenovo-Yoga-7-AMD-Gen-7-and-possibly-others/)
+
+Additional changes
+Configuration
+  - BIOS Back Flash --> Enabled
+  - Flip To Start   --> Disabled
+
+Option to have Advanced Settings disable I2C 2
+AMD CBS -->
+    FHC Common Options -->
+        I2C Configuration Options -->
+            I2C 2 Enable --> Disabled

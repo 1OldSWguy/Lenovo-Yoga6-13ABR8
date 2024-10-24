@@ -1,0 +1,75 @@
+00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+	Subsystem: Lenovo Renoir/Cezanne Root Complex [17aa:3838]
+00:00.2 IOMMU [0806]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne IOMMU [1022:1631]
+	Subsystem: Lenovo Renoir/Cezanne IOMMU [17aa:3835]
+00:01.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:02.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:02.1 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:02.3 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:02.4 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:08.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:08.1 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus [1022:1635]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus [1022:1635]
+	Kernel driver in use: pcieport
+00:14.0 SMBus [0c05]: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller [1022:790b] (rev 51)
+	Subsystem: Lenovo FCH SMBus Controller [17aa:387d]
+	Kernel driver in use: piix4_smbus
+	Kernel modules: i2c_piix4, sp5100_tco
+00:14.3 ISA bridge [0601]: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge [1022:790e] (rev 51)
+	Subsystem: Lenovo FCH LPC Bridge [17aa:3861]
+00:18.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 0 [1022:166a]
+00:18.1 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 1 [1022:166b]
+00:18.2 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 2 [1022:166c]
+00:18.3 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 3 [1022:166d]
+	Kernel driver in use: k10temp
+	Kernel modules: k10temp
+00:18.4 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 4 [1022:166e]
+00:18.5 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 5 [1022:166f]
+00:18.6 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 6 [1022:1670]
+00:18.7 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 7 [1022:1671]
+01:00.0 Non-Volatile memory controller [0108]: Sandisk Corp WD Black SN850X NVMe SSD [15b7:5030] (rev 01)
+	Subsystem: Sandisk Corp WD Black SN850X NVMe SSD [15b7:5030]
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+02:00.0 SD Host controller [0805]: O2 Micro, Inc. SD/MMC Card Reader Controller [1217:8621] (rev 01)
+	Subsystem: O2 Micro, Inc. SD/MMC Card Reader Controller [1217:0002]
+	Kernel driver in use: sdhci-pci
+	Kernel modules: sdhci_pci
+03:00.0 Network controller [0280]: Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz [8086:2725] (rev 1a)
+	DeviceName: Realtek RTL8111E Ethernet LOM
+	Subsystem: Intel Corporation Wi-Fi 6 AX210 160MHz [8086:0024]
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+04:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c5)
+	Subsystem: Lenovo Barcelo [17aa:3808]
+	Kernel driver in use: amdgpu
+	Kernel modules: amdgpu
+04:00.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon High Definition Audio Controller [1002:1637]
+	Subsystem: Lenovo Renoir Radeon High Definition Audio Controller [17aa:3834]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+04:00.2 Encryption controller [1080]: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 10h-1fh) Platform Security Processor [1022:15df]
+	Subsystem: Lenovo Family 17h (Models 10h-1fh) Platform Security Processor [17aa:3851]
+	Kernel driver in use: ccp
+	Kernel modules: ccp
+04:00.3 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1 [1022:1639]
+	Subsystem: Lenovo Renoir/Cezanne USB 3.1 [17aa:386e]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+04:00.4 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1 [1022:1639]
+	Subsystem: Lenovo Renoir/Cezanne USB 3.1 [17aa:386e]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+04:00.5 Multimedia controller [0480]: Advanced Micro Devices, Inc. [AMD] ACP/ACP3X/ACP6x Audio Coprocessor [1022:15e2] (rev 01)
+	Subsystem: Lenovo ACP/ACP3X/ACP6x Audio Coprocessor [17aa:3867]
+	Kernel modules: snd_pci_acp3x, snd_rn_pci_acp3x, snd_pci_acp5x, snd_pci_acp6x, snd_acp_pci, snd_rpl_pci_acp6x, snd_pci_ps, snd_sof_amd_renoir, snd_sof_amd_rembrandt, snd_sof_amd_vangogh
+04:00.6 Audio device [0403]: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller [1022:15e3]
+	Subsystem: Lenovo Family 17h/19h HD Audio Controller [17aa:3864]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel

@@ -1,0 +1,184 @@
+Lenovo Yoga 6 13ABR8 (13" 2-in-1, 2023 8th Gen)
+
+BIOS: L5CN22WW
+CPU:  AMD Ryzen 5 7530U (6 core) with Radeon Graphics
+iGPU: Advanced Micro Devices, Inc. [AMD/ATI] Barcelo (rev c5)
+
+Base Board Information
+	Manufacturer: LENOVO
+	Product Name: LNVNB161216
+	Version: SDK0T76465 WIN
+
+Onboard Device
+	Reference Designation: Realtek RTL8111E Ethernet LOM
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:03:00.0
+
+Onboard Device
+	Reference Designation: Realtek ALC701
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 00ff:ff:1f.7
+
+input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/LNXVIDEO:00/input/input2
+input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+input: PC Speaker as /devices/platform/pcspkr/input/input4
+input: Lenovo Yoga Tablet Mode Control switch as /devices/platform/PNP0C14:01/wmi_bus/wmi_bus-PNP0C14:01/06129D99-6083-4164-81AD-F092F9D773A6/input/input5
+input: 04881080:00 0488:1052 Mouse as /devices/platform/AMDI0010:00/i2c-0/i2c-04881080:00/0018:0488:1052.0001/input/input6
+input: 04881080:00 0488:1052 Touchpad as /devices/platform/AMDI0010:00/i2c-0/i2c-04881080:00/0018:0488:1052.0001/input/input7
+       hid-generic 0018:0488:1052.0001: input,hidraw0: I2C HID v1.00 Mouse [04881080:00 0488:1052] on i2c-04881080:00
+input: WACF2200:00 056A:52F9 Touchscreen as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input9
+input: WACF2200:00 056A:52F9 as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input10
+input: WACF2200:00 056A:52F9 Stylus as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input11
+input: WACF2200:00 056A:52F9 as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input12
+input: WACF2200:00 056A:52F9 Mouse as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input13
+       hid-generic 0018:056A:52F9.0002: input,hidraw1: I2C HID v1.00 Mouse [WACF2200:00 056A:52F9] on i2c-WACF2200:00
+input: Ideapad extra buttons as /devices/pci0000:00/0000:00:14.3/PNP0C09:00/VPC2004:00/input/input14
+input: 04881080:00 0488:1052 Mouse as /devices/platform/AMDI0010:00/i2c-0/i2c-04881080:00/0018:0488:1052.0001/input/input15
+input: 04881080:00 0488:1052 Touchpad as /devices/platform/AMDI0010:00/i2c-0/i2c-04881080:00/0018:0488:1052.0001/input/input16
+       hid-multitouch 0018:0488:1052.0001: input,hidraw0: I2C HID v1.00 Mouse [04881080:00 0488:1052] on i2c-04881080:00
+input: Wacom HID 52F9 Pen as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input18
+input: Wacom HID 52F9 Finger as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52F9.0002/input/input19
+input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:04:00.1/sound/card0/input21
+input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:04:00.1/sound/card0/input22
+       snd_hda_codec_realtek hdaudioC1D0:    inputs:
+input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input23
+input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input24
+
+Touchpad:
+Device Path \_SB.I2CA.TPDE (Has the touch pad on it; Cirque Corporation 0488:1080)
+Linux Quirks for multitouch inputs
+#define MT_QUIRK_NOT_SEEN_MEANS_UP	BIT(0)
+#define MT_QUIRK_SLOT_IS_CONTACTID	BIT(1)
+#define MT_QUIRK_CYPRESS		BIT(2)
+#define MT_QUIRK_SLOT_IS_CONTACTNUMBER	BIT(3)
+#define MT_QUIRK_ALWAYS_VALID		BIT(4)
+#define MT_QUIRK_VALID_IS_INRANGE	BIT(5)
+#define MT_QUIRK_VALID_IS_CONFIDENCE	BIT(6)
+#define MT_QUIRK_CONFIDENCE		BIT(7)
+#define MT_QUIRK_SLOT_IS_CONTACTID_MINUS_ONE	BIT(8)
+#define MT_QUIRK_NO_AREA		BIT(9)
+#define MT_QUIRK_IGNORE_DUPLICATES	BIT(10)
+#define MT_QUIRK_HOVERING		BIT(11)
+#define MT_QUIRK_CONTACT_CNT_ACCURATE	BIT(12)
+#define MT_QUIRK_FORCE_GET_FEATURE	BIT(13)
+#define MT_QUIRK_FIX_CONST_CONTACT_ID	BIT(14)
+#define MT_QUIRK_TOUCH_SIZE_SCALING	BIT(15)
+#define MT_QUIRK_STICKY_FINGERS		BIT(16)
+#define MT_QUIRK_ASUS_CUSTOM_UP		BIT(17)
+#define MT_QUIRK_WIN8_PTP_BUTTONS	BIT(18)
+#define MT_QUIRK_SEPARATE_APP_REPORT	BIT(19)
+#define MT_QUIRK_FORCE_MULTI_INPUT	BIT(20)
+#define MT_QUIRK_DISABLE_WAKEUP		BIT(21)
+#define MT_QUIRK_ORIENTATION_INVERT	BIT(22)
+Cirque has bits 4,10,11,12,16,18 set
+
+Touch Screen:
+Device Path \_SB.I2CB.TPN1 (Has the touch screen on it; Wacom Technology)
+
+Sound:
+**** List of PLAYBACK Hardware Devices ****
+card 0: Generic [HD-Audio Generic], device 3: HDMI 0 [HDMI 0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: Generic [HD-Audio Generic], device 7: HDMI 1 [HDMI 1]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: Generic_1 [HD-Audio Generic], device 0: ALC257 Analog [ALC257 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+WiFi Network controller: MEDIATEK Corp. MT7921 802.11ax PCI Express Wireless Network Adapter
+                         Changed to WiFi 6E AX210
+
+NVMe:
+       description: NVMe device
+       product: SAMSUNG MZAL4256HBJD-00BL2
+       vendor: Samsung Electronics Co Ltd
+       physical id: 0
+       bus info: pci@0000:01:00.0
+       logical name: /dev/nvme0
+       version: 7L1QHXC7
+       Changed to WD_BLACK SN850X 1TB GEN4
+
+From Linux lspci -nnk
+00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+	Subsystem: Lenovo Renoir/Cezanne Root Complex [17aa:3838]
+00:00.2 IOMMU [0806]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne IOMMU [1022:1631]
+	Subsystem: Lenovo Renoir/Cezanne IOMMU [17aa:3835]
+00:01.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:02.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:02.1 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:02.3 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:02.4 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1634]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge [1022:1453]
+	Kernel driver in use: pcieport
+00:08.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge [1022:1632]
+00:08.1 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus [1022:1635]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus [1022:1635]
+	Kernel driver in use: pcieport
+00:14.0 SMBus [0c05]: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller [1022:790b] (rev 51)
+	Subsystem: Lenovo FCH SMBus Controller [17aa:387d]
+	Kernel driver in use: piix4_smbus
+	Kernel modules: i2c_piix4, sp5100_tco
+00:14.3 ISA bridge [0601]: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge [1022:790e] (rev 51)
+	Subsystem: Lenovo FCH LPC Bridge [17aa:3861]
+00:18.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 0 [1022:166a]
+00:18.1 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 1 [1022:166b]
+00:18.2 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 2 [1022:166c]
+00:18.3 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 3 [1022:166d]
+	Kernel driver in use: k10temp
+	Kernel modules: k10temp
+00:18.4 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 4 [1022:166e]
+00:18.5 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 5 [1022:166f]
+00:18.6 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 6 [1022:1670]
+00:18.7 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 7 [1022:1671]
+01:00.0 Non-Volatile memory controller [0108]: Sandisk Corp WD Black SN850X NVMe SSD [15b7:5030] (rev 01)
+	Subsystem: Sandisk Corp WD Black SN850X NVMe SSD [15b7:5030]
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+02:00.0 SD Host controller [0805]: O2 Micro, Inc. SD/MMC Card Reader Controller [1217:8621] (rev 01)
+	Subsystem: O2 Micro, Inc. SD/MMC Card Reader Controller [1217:0002]
+	Kernel driver in use: sdhci-pci
+	Kernel modules: sdhci_pci
+03:00.0 Network controller [0280]: Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz [8086:2725] (rev 1a)
+	DeviceName: Realtek RTL8111E Ethernet LOM
+	Subsystem: Intel Corporation Wi-Fi 6 AX210 160MHz [8086:0024]
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+04:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c5)
+	Subsystem: Lenovo Barcelo [17aa:3808]
+	Kernel driver in use: amdgpu
+	Kernel modules: amdgpu
+04:00.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon High Definition Audio Controller [1002:1637]
+	Subsystem: Lenovo Renoir Radeon High Definition Audio Controller [17aa:3834]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+04:00.2 Encryption controller [1080]: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 10h-1fh) Platform Security Processor [1022:15df]
+	Subsystem: Lenovo Family 17h (Models 10h-1fh) Platform Security Processor [17aa:3851]
+	Kernel driver in use: ccp
+	Kernel modules: ccp
+04:00.3 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1 [1022:1639]
+	Subsystem: Lenovo Renoir/Cezanne USB 3.1 [17aa:386e]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+04:00.4 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1 [1022:1639]
+	Subsystem: Lenovo Renoir/Cezanne USB 3.1 [17aa:386e]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+04:00.5 Multimedia controller [0480]: Advanced Micro Devices, Inc. [AMD] ACP/ACP3X/ACP6x Audio Coprocessor [1022:15e2] (rev 01)
+	Subsystem: Lenovo ACP/ACP3X/ACP6x Audio Coprocessor [17aa:3867]
+	Kernel modules: snd_pci_acp3x, snd_rn_pci_acp3x, snd_pci_acp5x, snd_pci_acp6x, snd_acp_pci, snd_rpl_pci_acp6x, snd_pci_ps, snd_sof_amd_renoir, snd_sof_amd_rembrandt, snd_sof_amd_vangogh
+04:00.6 Audio device [0403]: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller [1022:15e3]
+	Subsystem: Lenovo Family 17h/19h HD Audio Controller [17aa:3864]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
